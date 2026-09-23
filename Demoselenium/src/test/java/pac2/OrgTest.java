@@ -13,5 +13,10 @@ public class OrgTest {
 	public void modifyorgTest() {
 		System.out.println("execute modifyorgTest");
 	}
+	
+	@Test
+	public void industryorgTest() {
+		System.out.println("execute industryorgTest");
+	}
 
 }

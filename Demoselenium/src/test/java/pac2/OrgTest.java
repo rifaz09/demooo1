@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class OrgTest {
 	
-	@Test
+	@Test (groups = "ST")
 	public void createorgTest() {
 		
 
@@ -20,12 +20,12 @@ public class OrgTest {
 		System.out.println("execute createorgTest");
 	}
 	
-	@Test
+	@Test(groups = "RT")
 	public void modifyorgTest() {
 		System.out.println("execute modifyorgTest");
 	}
 	
-	@Test
+	@Test (groups = "RT")
 	public void industryorgTest() {
 		System.out.println("execute industryorgTest");
 	}

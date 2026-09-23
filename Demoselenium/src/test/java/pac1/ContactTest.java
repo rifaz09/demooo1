@@ -1,10 +1,12 @@
 package pac1;
 
+import javax.swing.GroupLayout.Group;
+
 import org.testng.annotations.Test;
 
 public class ContactTest {
 	
-	@Test
+	@Test (groups = "ST")
 	public void createcontactTest() {
 		
 		String URL=System.getProperty("url");
